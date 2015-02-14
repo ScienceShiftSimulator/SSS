@@ -1,0 +1,571 @@
+body, p{
+  font-family : arial , sans-serif ;
+  font-size : 12pt ;
+  line-height : 18pt ;
+  text-align : justify ;
+}
+body{
+  background-color : #ccffcc ;
+  /*background-image : url('/images/stripe_red.png') ;*/
+  /*background-image : url('/images/stripe_lightblue.png') ;*/
+  /*background-image : url('/images/stripe_green.png') ;*/
+  background : #000000 ;
+  /*background : rgb(28,19,14) ;
+  background-image : url('/images/NYC.jpg') ;
+  */
+  background-image : url('/images/london1.jpg') ;
+  background-repeat : no-repeat ;
+  background-attachment : fixed ;
+  background-position : bottom ;
+}
+div#container{
+  width : 800px ;
+  margin : auto ;
+  border : 1px solid black ;
+}
+div#outer_container{
+  width : 804px ;
+  margin : auto ;
+  border : 1px solid black ;
+  padding : 2px ;
+  background-color : white ;
+  background-color : rgba(255,255,255,0.9) ;
+  margin-bottom : 0px ;
+}
+div#heading{
+  width : 100% ;
+  padding : 0px ;
+  background : #000000 ;
+  /*background-image : url('/images/blue2.png') ;*/
+}
+div#content{ padding : 20px ; }
+h1, h2, h3, h4, h5, h6{
+  font-family : georgia , serif ;
+  font-style : italic ;
+  text-align : center ;
+}
+h1{
+  font-family : arial black , sans-serif ;
+  font-style : normal ;
+  padding : 2px ;
+  color : white ;
+  line-height : 1em ;
+  margin : 0px ;
+  font-size : 20pt ;
+}
+#tagline{
+  font-size : 12pt ;
+  font-style : italic ;
+  font-family : times , serif ;
+  text-align : right ;
+  padding : 5px ;
+  padding-right : 15px ;
+  color : white ;
+  margin-top : 10px ;
+  margin-bottom : 2px ;
+}
+div#footer{
+  font-size : 8pt ;
+  font-style : italic ;
+  font-family : times , serif ;
+  text-align : center ;
+  padding : 5px ;
+  clear : both ;
+}
+
+/* Taken from http://css.maxdesign.com.au/listamatic/horizontal03.htm */
+#navcontainer ul{
+  padding-left: 0;
+  margin : 0px ;
+  margin-left: 0;
+  background-color: #006633;
+  background-color: #000000;
+  color: White;
+  float: left;
+  width: 100%;
+  font-family: arial, helvetica, sans-serif;
+}
+#navcontainer ul li { display: inline; }
+#navcontainer ul li a{
+  padding: 0.2em 1em;
+  background-color: #000000 ;
+  /*background-color: rgb(41,100,80);*/
+  color: White;
+  text-decoration: none;
+  float: left;
+  border-right: 1px solid #fff;
+}
+#navcontainer ul li a:hover{
+  background-color: #ffffff ;
+  /*background-color: rgb(171,63,63);*/
+  color: #000000 ;
+}
+#currentNavButton{
+  background-color: #ffffff;
+  color: #003366;
+}
+
+table#contact_table{
+  width : 600px ;
+  margin : auto ;
+}
+th.contact{
+  text-align : right ;
+  vertical-align : top ;
+}
+
+/* Taken from www.aidansean.com/main.css */
+
+/*Titles*/
+h2.left, h3, h4{
+	background-color : #dddddd ;
+	color : #000000 ;
+}
+h2.right{
+	margin : 10px ;
+	padding : 5px ;
+	background-color : #006633 ;
+	color : #ffffff ;
+}
+div.right{
+  margin-top : 20px ;
+  margin-bottom : 5px ;
+}
+
+div.blurb, div.blurb_with_icon, div.blurb_with_movie_icon{
+	margin : 0px ;
+	padding : 2px ;
+	padding-top : 1px ;
+	font-size : 10pt ;
+	text-align : justify ;
+}
+div.blurb_with_icon{ min-height : 140px ; }
+div.blurb_with_movie_icon{ min-height : 197px ; }
+h3{
+	font-family : arial , sans-serif ;
+	font-size : 12pt ;
+	font-style : normal ;
+	font-weight : normal ;
+	text-align : left ;
+	padding-left : 1em ;
+	margin : 0px ;
+	margin-top : 5px ;
+	border-top : 1px solid #00aa00 ;
+	border-bottom : 1px solid #00aa00 ;
+	border-top : 1px solid #000000 ;
+	border-bottom : 1px solid #000000 ;
+}
+h4{
+  border-top    : 5px solid #cceecc ;
+  border-bottom : 5px solid #cceecc ;
+  border-top    : 5px solid #000000 ;
+  border-bottom : 5px solid #000000 ;
+}
+
+/* Images */
+img{
+	margin : 5px ;
+	border : 1px solid #000000 ;
+}
+
+img.flush{
+	margin : 0px ;
+	padding : 0px ;
+	border : 0px solid #000000 ;
+}
+
+img.icon, img.icon_movie{
+	position : relative ;
+	float : left ;
+	margin : 10px ;
+	border : 1px solid #000000 ;
+	z-index : 1 ;
+	width : 100px ;
+	height : 100px ;
+}
+img.icon_movie
+{
+  width : 107px ;
+	height : 157px ;
+}
+img.favicon
+{
+  border : 0px solid black ;
+  position : relative ;
+  top : 10px ;
+  width : 16px ;
+  height : 16px ;
+}
+
+/* Portal */
+.clock, .currency{
+  width : 150px ;
+  text-align : center ;
+}
+
+th.clock, th.currency{
+  background-color : #ffdddd ;
+  background-color : #eeeeee ;
+}
+
+td.clock, td.currency
+{
+  background-color : #ffeeee ;
+  background-color : #eeeeee ;
+}
+
+div.center, p.center{ text-align : center ; }
+
+table.centered{ margin : auto ; }
+
+input.narrow{ width : 100px ; }
+
+/* Misc */
+
+blockquote{
+  width : 80% ;
+  padding : 20px ;
+  padding-left : 50px ;
+  background-color : #eeeeee ;
+  border : 1px solid gray ;
+  background-image : url('/images/quoteIcon.gif') ;
+  background-repeat : no-repeat ;
+  font-style : italic ;
+  font-size : 12pt ;
+}
+span.quote{
+  padding-left : 2em ;
+  padding-top : 0.5em ;
+  font-style : italic ;
+  font-family : georgia , serif ;
+  background-image : url("/images/quoteIcon.gif") ;
+  background-repeat : no-repeat ;
+}
+h4.blockquote{
+  background-color : #ffffff ;
+  border-top    : 5px solid #cccccc ;
+  border-bottom : 5px solid #cccccc ;
+}
+
+p.notice{
+  width : 600px ;
+  margin : auto ;
+  margin-top : 5px ;
+  margin-bottom : 5px ;
+  padding : 5px ;
+  text-align : center ;
+  background-color : #ffeeee ;
+  border-left : 5px solid #ffaaaa ;
+  border-right : 5px solid #ffaaaa ;
+}
+
+.hide{ display : none ; }
+
+div.image_wrapper_right{
+  float : right ;
+  padding : 1px ;
+  border : 1px solid black ;
+  margin : 5px ;
+}
+p.image_caption{
+  text-align : center ;
+  font-family : arial , serif ;
+  font-size : 8pt ;
+}
+
+dl{
+  /*margin-left : 10px ;
+  padding-left : 0px ;*/
+  background-color : #ffffff ;
+  padding : 0px ;
+  padding-right : 2em ;
+}
+dt{
+  margin-left : 0px ;
+  padding : 0.2em ;
+  padding-left : 0.5em ;
+  font-family : georgia , serif ;
+  font-size : 14pt ;
+  background-color : #ddffdd ;
+  background-color : #dddddd ;
+  width : 30% ;
+  margin-top : 1em ;
+}
+dd{
+  margin-left : 10px ;
+  padding-left : 1em ;
+  font-family : georgia , serif ;
+  font-size : 12pt ;
+}
+
+/* Box plotter */
+table.box_plotter{
+  width : 600px ;
+  margin : auto ;
+}
+
+td.box_plotter_td_1, td.box_plotter_td_2{
+  background-color : #ddffdd ;
+  background-color : #dddddd ;
+}
+td.box_plotter_td_1{
+  width : 300px ;
+}
+
+th.box_plotter{
+  background-color : #006633 ;
+  background-color : #000000 ;
+  color : #ffffff ;
+}
+th.box_plotter_th_0{
+  width : 300px ;
+}
+
+th.box_plotter_heading{
+  text-align : center ;
+}
+
+th.box_plotter_subheading{
+  color : #000000 ;
+  background-color : #ddffdd ;
+  background-color : #eeeeee ;
+  border-top : 1px solid #00aa00 ;
+  border-bottom : 1px solid #00aa00 ;
+  border-top : 1px solid #000000 ;
+  border-bottom : 1px solid #000000 ;
+  text-align : center ;
+  font-weight : normal ;
+}
+
+div#box_plotter_wrapper{
+  margin : auto ;
+  padding : 5px ;
+  background-color : #ffffff ;
+  text-align : center ;
+  vertical-align : middle ;
+}
+
+/* Inverter */
+table.inverter{
+  width : 600px ;
+  margin : auto ;
+}
+
+td.inverter_td_1, td.inverter_td_2{
+  background-color : #ddffdd ;
+  background-color : #eeeeee ;
+}
+td.inverter_td_1{ width : 200px ; }
+td.inverter_td_2{ width : 200px ; }
+
+th.inverter{
+  background-color : #006633 ;
+  background-color : #000000 ;
+  color : #ffffff ;
+}
+th.inverter_th_0{ width : 200px ; }
+th.inverter_heading{ text-align : center ; }
+
+div#inverter_wrapper{
+  border : 1px solid black ;
+  width : 610px ;
+  height : 610px ;
+  margin : auto ;
+  padding : 5px ;
+  background-color : #ffffff ;
+  text-align : center ;
+  vertical-align : middle ;
+}
+
+/* Reflections */
+table.reflections{
+  width : 600px ;
+  margin : auto ;
+}
+
+td.reflections_td_1{
+  /*background-color : #ddffdd ;*/
+  background-color : #eeeeee ;
+  width : 200px ;
+}
+th.reflections{
+  background-color : #006633 ;
+  background-color : #000000 ;
+  color : #ffffff ;
+}
+th.reflections_th_0{ width : 400px ; }
+th.reflections_heading{ text-align : center ; }
+
+div#reflections_wrapper{
+  border : 1px solid black ;
+  width : 610px ;
+  height : 1010px ;
+  margin : auto ;
+  padding : 5px ;
+  background-color : #ffffff ;
+  text-align : center ;
+  vertical-align : middle ;
+}
+
+/* Music wall */
+.albumArt{
+  border : 1px solid black ;
+  padding : 0px ;
+}
+#imageHolder{
+  text-align : center ;
+  width : 500px ;
+  margin : auto ;
+}
+img.albumArtWall{
+  width : 100px ;
+  height : 100px ;
+  border : 1px solid black ;
+  opacity : 0.8 ;
+}
+img.albumArtWall:hover{ opacity : 1 ; }
+table#albumArtWallTable{
+  width : 600px ;
+  margin : auto ;
+  background-color : white ;
+}
+div.albumArtWrapper{
+  padding : 0px ;
+  border : 0px solid black ;
+}
+td{ padding : 0px ; }
+th{ text-align : right ; }
+th.deus_ex{
+  width : 10% ;
+  padding : 5px ;
+  color : white ;
+  background-color : #006633 ;
+}
+td.deus_ex{
+  width : 90% ;
+  padding : 5px ;
+  background-color : #ffffff ;
+}
+table#searchTable{
+  width : 600px ;
+  margin : auto ;
+}
+input.button{
+  border : 1px solid black ;
+  width : 200px ;
+  text-align : center ;
+}
+input.text{ width : 200px ; }
+#imageHolder{ width : 100px ; }
+#artistHolder, #albumHolder, #saveButtonHolder{
+  width : 200px ;
+  text-align : center ;
+  padding : 5px ;
+}
+td.searchTable, th.searchTable{
+  height : 30px ;
+  vertical-align : middle ;
+}
+div#emptyArt{
+  width : 100px ;
+  height : 100px ;
+  border : 1px solid black ;
+  background-color : white ;
+  font-size : 10pt ;
+  vertical-align : middle ;
+}
+
+/* Photobucket */
+
+div.photobucket_image_wrapper{
+  width : 620px ;
+  padding : 0px ;
+  text-align : center ;
+  margin : auto ;
+  margin-bottom : 20px ;
+  border : 1px solid #888888 ;
+  background-color : #eeffee ;
+}
+img.photobucket_image{
+  width : 600px ;
+  padding : 2px ;
+  margin-bottom : 0px ;
+}
+p.photobucket_caption{
+  width : 600px ;
+  text-align : center ;
+  font-family : arial , sans-serif ;
+  margin : auto ;
+  margin-top : 0px ;
+  margin-bottom : 10px ;
+}
+
+p.usericon{ text-align : left ; }
+
+/* Semileptonic decays */
+
+table#semiLeptonicDecays{
+  width : 100% ;
+  border : 1px solid black ;
+  margin : auto ;
+}
+th.semileptonic, td.semileptonic{ text-align : center ; }
+
+
+/* Table of icons */
+table#main_websites{
+  width : 650px ;
+  margin : auto ;
+}
+td.main_websites{
+  width : 64px ;
+  height : 64px ;
+  text-align : center ;
+  vertical-align : middle ;
+  padding : 0px ;
+}
+img.main_websites{
+  border        : 1px solid #222222 ;
+  border-right  : 3px solid #222222 ;
+  border-bottom : 3px solid #222222 ;
+}
+
+pre.euler{
+  width : 80% ;
+  margin : auto ;
+  border : 1px solid black ;
+  font-size : 10pt ;
+  background-color : #000000 ;
+  color : #00ff00 ;
+  padding : 20px ;
+  padding-right : 50px ;
+  font-family : menlo , monospace ;
+}
+
+dt.GRID{
+  width : 400px ;
+}
+
+
+
+table#sitemap_icons{
+  width : 0px;
+  margin : auto ;
+}
+td.sitemap_icon{
+  padding : 0px ;
+  width : 100px ;
+  height : 100px ;
+}
+body{
+  background-color : #ccffcc ;
+  /*background-image : url('/images/stripe_red.png') ;*/
+  /*background-image : url('/images/stripe_lightblue.png') ;*/
+  /*background-image : url('/images/stripe_green.png') ;*/
+  background : #000000 ;
+  background-image : url('/images/wallpapers/NYC.png') ;
+  /*background-image : url('/images/london1.jpg') ;*/
+  background-repeat : no-repeat ;
+  background-attachment : fixed ;
+  background-position : bottom ;
+}
